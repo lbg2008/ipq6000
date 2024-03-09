@@ -3,3 +3,6 @@ config globals 'globals'
 	option enabled '1'
 	option sysfs '/sys/devices/virtual/thermal/thermal_zone0/temp'
 	option div 1
+	option temperature '55'
+	option integration '5'
+	option differential '20'
